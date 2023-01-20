@@ -1,0 +1,17 @@
+.comentario {
+  width: 450px;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 5px 5px 5px gray;
+  padding: 20px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 5px 5px 5px silver;
+  padding: 15px;
+}

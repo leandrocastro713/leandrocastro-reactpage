@@ -1,0 +1,8 @@
+button {
+  padding: 20px;
+  border: none;
+  background-image: linear-gradient(90deg, slategray 70%, teal);
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+}
