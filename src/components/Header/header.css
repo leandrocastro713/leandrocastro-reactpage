@@ -11,6 +11,9 @@ li{
     padding:5px 10px;
     margin:0 10px;
 }
+.logo{
+    margin-left: 10px;
+}
 .download {
     display:flex;
     justify-content: space-around;
@@ -29,7 +32,7 @@ button img{
     margin-left: 5px;
 }
 .curriculum button:hover{
-    transition: ease 300ms;
+    transition: ease 200ms;
     background-color: rgb(0, 56, 56);
 }
 .menu a{
@@ -39,4 +42,20 @@ button img{
     transition:ease 300ms;
     text-shadow: rgba(7, 96, 13, 0.736) 1px 1px;
     border-bottom: 4px solid teal;
+}
+.flags img{
+    height: 22px;
+    width: 31px;
+    margin: 2px;
+    cursor: pointer;
+    transition:all 200ms ease;
+}
+/* #flag-bra {
+    filter: grayscale(1);
+    transform: scale(.8);
+} */
+.flag:hover{
+    transition:all 200ms ease;
+    filter:grayscale(0);
+    transform: scale(1.1);
 }

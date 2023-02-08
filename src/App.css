@@ -1,7 +1,7 @@
 :root{
   --bkg-color1: #1d212a;
-  --bkg-color2: #212832;
-  --front-color-menu: #dff0f6;
+  --bkg-color2: #3e4e64;
+  --front-color-menu: #deeaee;
   --front-color1: #00adb4;
   --front-color2: #393d46;
 }
@@ -15,12 +15,6 @@ body{
   background-color: var(--bkg-color1);
   color:var(--front-color1);
 }
-/* .header{
-  display:flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border:1px dotted silver;
-} */
 a{
   cursor:pointer;
 }
