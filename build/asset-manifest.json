@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6dfe3e4.css",
+    "main.js": "/static/js/main.b87b3505.js",
+    "static/media/waves2.png": "/static/media/waves2.619c5aab3e55b109abcf.png",
+    "static/media/losango-base.png": "/static/media/losango-base.5eabc85da0cc8f43f361.png",
+    "index.html": "/index.html",
+    "main.b6dfe3e4.css.map": "/static/css/main.b6dfe3e4.css.map",
+    "main.b87b3505.js.map": "/static/js/main.b87b3505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6dfe3e4.css",
+    "static/js/main.b87b3505.js"
+  ]
+}
