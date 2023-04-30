@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Header.css";
+import "./Header.css";
 
 import DownloadImg from "../img/download-silver.png";
 import flagBRA from "../img/flag-bra.png";
