@@ -6,6 +6,10 @@
   --front-color2: #393d46;
 }
 body{
+  display:flex;
+  position: relative;
+  width:100vw;
+  max-width: 1000px;
   margin:0 auto;
   padding:0;
   box-sizing: border-box;
@@ -14,9 +18,6 @@ body{
   font-weight: 300;
   background-color: var(--bkg-color1);
   color:var(--front-color1);
-  display:flex;
-  width:100%;
-  max-width: 1000px;
 }
 a{
   cursor:pointer;

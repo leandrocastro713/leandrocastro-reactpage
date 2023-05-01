@@ -1,19 +1,13 @@
 .header{
-    display:flex;
+    display:flex; 
+    position: relative;
+    max-width: 1000px;
+    width:100%;
     justify-content: space-evenly;
     align-items: center;
-    /* border:1px dotted silver; */
   }
   
-li{
-    list-style-type: none;
-    display:inline-block;
-    padding:5px 10px;
-    margin:0 10px;
-}
-.logo{
-    margin-left: 10px;
-}
+
 .download {
     display:flex;
     justify-content: space-around;
@@ -35,14 +29,6 @@ button img{
     transition: ease 200ms;
     background-color: rgb(0, 56, 56);
 }
-.menu a{
-    padding: 10px 0;
-}
-.menu a:hover{
-    transition:ease 300ms;
-    text-shadow: rgba(7, 96, 13, 0.736) 1px 1px;
-    border-bottom: 4px solid teal;
-}
 .flags img{
     height: 22px;
     width: 31px;
@@ -59,15 +45,14 @@ button img{
     filter:grayscale(0);
     transform: scale(1.1);
 }
-
-
-
 main{
-    position:relative;
     display:flex;
+    position:relative;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height:408px;
-    width:1000px;
+    width:100%;
+    max-width: 1000px;
     margin:0 auto;
     align-items: center;
     background-image: url('../img/waves2.png');
@@ -75,7 +60,6 @@ main{
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     border-bottom: 4px solid #00adb4;
-    /* background-color: var(--v-bkg-color2); */
 }
 main h1{
     position:relative;
@@ -135,38 +119,6 @@ main h3:hover{
     top:-40px;
 }
 
-/* -------------------------------- CITAR  */
-.citar{
-    width:1000px;
-    height: 100px;
-    padding: 30px;
-}
-.citar-q{
-    font-style: italic;
-    position:relative;
-    color: #dff0f6bb;
-    font-weight: 100;
-    font-size: 16px;
-    opacity:80%;
-    transition:opacity ease 300ms;
-}
-.citar-q:hover{
-    transition: opacity ease 500ms;
-    opacity:100%;
-}
-.citar-i{
-    position:relative;
-    color: #dff0f6bb;
-    left:7px;
-    font-size: 15px;
-    font-weight:100;
-    transition:opacity ease 300ms;
-    opacity:80%;
-}
-.citar-i:hover{
-    transition: opacity ease 500ms;
-    opacity:100%;
-}
 
 /*--------------------------------------- PIC  */
 .pic{

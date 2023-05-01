@@ -1,5 +1,8 @@
 import React from "react";
 import "./Header.css";
+import Citar from "./Citar/Citar.jsx"
+import Logo from "./Logo/Logo.jsx"
+import Menu from "./Menu/Menu.jsx"
 
 import DownloadImg from "../img/download-silver.png";
 import flagBRA from "../img/flag-bra.png";
@@ -9,28 +12,10 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        
-        <div className="logo">
-          <h4>my logo</h4>
-        </div>
-        
-        <div className="menu">
-          <ul className="menu-list">
-            <a link="#" target="_blank">
-              <li>Knowledges</li>
-            </a>
-            <a link="#" target="_blank">
-              <li>Skills</li>
-            </a>
-            <a link="#" target="_blank">
-              <li>About</li>
-            </a>
-            <a link="#" target="_blank">
-              <li>Contact</li>
-            </a>
-          </ul>
-        </div>
-        
+
+        <Logo />
+        <Menu />      
+
         <div className="flags">
           <img src={flagBRA} alt="" className="flag" id="flag-bra" />
           <img src={flagUSA} alt="" className="flag" id="flag-usa" />
@@ -42,7 +27,8 @@ export default function Header() {
             <img src={DownloadImg} />
           </button>
         </div>
-      </div>
+        
+      </div> 
 
 
       <main className="top"> 
@@ -81,10 +67,9 @@ export default function Header() {
     
       </main>
 
-      <div className="citar">
-        <q className="citar-q">Quem trabalha com o que ama está       sempre de férias.</q>
-        <p className="citar-i">Autor desconhecido.</p>
-      </div>
+      <Citar />
+
+      
 
     </>
   );
