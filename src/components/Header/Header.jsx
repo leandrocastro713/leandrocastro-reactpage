@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../Header/Header.css";
 import Logo from "./Logo/Logo.jsx"
 import Menu from "./Menu/Menu.jsx"
 import Citar from "./Citar/Citar.jsx"
@@ -10,7 +10,7 @@ import DownloadImg from "../img/download-silver.png";
 export default function Header() {
   return (
     <>
-      <div className="header">
+      <div className="Header">
 
         <Logo />
         <Menu />      
