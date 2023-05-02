@@ -1,0 +1,21 @@
+.download {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:7px 20px;
+    border-radius: 6px;
+    background-color: var(--bkg-color2);
+    color:var(--front-color1);
+    cursor:pointer;
+    transition: ease 1000ms;
+}
+button img{
+    width:15px;
+    height:15px;
+    padding: 3px;
+    margin-left: 5px;
+}
+.curriculum button:hover{
+    transition: ease 200ms;
+    background-color: rgb(0, 56, 56);
+}

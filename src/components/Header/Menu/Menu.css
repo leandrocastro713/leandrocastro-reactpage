@@ -16,13 +16,15 @@ a:hover{
     text-shadow: rgba(7, 96, 13, 0.736) 1px 1px, rgb(22, 129, 116) -1px -1px;
     border-bottom: 4px solid teal;
 }
-@media (max-width:500px){
+@media (max-width:690px){
     ul{
+        display:flex; flex-wrap:wrap;
+        justify-content:center;
         width: 30%;
     }
     a{
-        padding: 5px 2px;
-        margin:5px;
+        padding:4px;
+        margin:3px;
 
     }
 }

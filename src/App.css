@@ -5,10 +5,14 @@
   --front-color1: #00adb4;
   --front-color2: #393d46;
 }
+#root{
+  width:100%;
+  max-width:1000px;
+}
 body{
   display:flex;
-  position: relative;
-  width:100vw;
+  position:relative;
+  width:100%;
   max-width: 1000px;
   margin:0 auto;
   padding:0;
