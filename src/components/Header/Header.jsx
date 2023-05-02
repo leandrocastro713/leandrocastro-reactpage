@@ -1,8 +1,8 @@
 import React from "react";
-import "./Header.css";
-import Citar from "./Citar/Citar.jsx"
+import "Header.css";
 import Logo from "./Logo/Logo.jsx"
 import Menu from "./Menu/Menu.jsx"
+import Citar from "./Citar/Citar.jsx"
 
 import DownloadImg from "../img/download-silver.png";
 import flagBRA from "../img/flag-bra.png";
@@ -27,7 +27,7 @@ export default function Header() {
             <img src={DownloadImg} />
           </button>
         </div>
-        
+
       </div> 
 
 
