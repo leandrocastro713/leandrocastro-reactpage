@@ -1,12 +1,11 @@
 import React from "react";
-import "Header.css";
+import "./Header.css";
 import Logo from "./Logo/Logo.jsx"
 import Menu from "./Menu/Menu.jsx"
 import Citar from "./Citar/Citar.jsx"
+import Flags from "./Flags/Flags.jsx"
 
 import DownloadImg from "../img/download-silver.png";
-import flagBRA from "../img/flag-bra.png";
-import flagUSA from "../img/flag-usa.png";
 
 export default function Header() {
   return (
@@ -15,11 +14,7 @@ export default function Header() {
 
         <Logo />
         <Menu />      
-
-        <div className="flags">
-          <img src={flagBRA} alt="" className="flag" id="flag-bra" />
-          <img src={flagUSA} alt="" className="flag" id="flag-usa" />
-        </div>
+        <Flags />
         
         <div className="curriculum">
           <button className="download">

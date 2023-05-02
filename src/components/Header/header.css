@@ -5,9 +5,8 @@
     width:100%;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
-
+    padding: 15px;
+}
 .download {
     display:flex;
     justify-content: space-around;
@@ -28,22 +27,6 @@ button img{
 .curriculum button:hover{
     transition: ease 200ms;
     background-color: rgb(0, 56, 56);
-}
-.flags img{
-    height: 22px;
-    width: 31px;
-    margin: 2px;
-    cursor: pointer;
-    transition:all 200ms ease;
-}
-/* #flag-bra {
-    filter: grayscale(1);
-    transform: scale(.8);
-} */
-.flag:hover{
-    transition:all 200ms ease;
-    filter:grayscale(0);
-    transform: scale(1.1);
 }
 main{
     display:flex;
@@ -67,6 +50,7 @@ main h1{
     font-size: 150px;
     font-weight: 800;
     opacity: 70%;
+    width: 80%;
     left: 5px;
 }
 main h2{
@@ -86,7 +70,8 @@ main h2:hover{
 }
 .hello{
     color:white;
-    letter-spacing: .9px;
+    width:40%;
+    letter-spacing: .3px;
     top:30px;
     position:relative;
 }
@@ -118,7 +103,6 @@ main h3:hover{
     position:relative;
     top:-40px;
 }
-
 
 /*--------------------------------------- PIC  */
 .pic{

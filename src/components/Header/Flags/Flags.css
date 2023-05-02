@@ -1,0 +1,28 @@
+.flags{
+    display:flex;
+    flex-direction: row;
+    margin:6px;
+}
+.flags img{
+    flex-direction: row;
+    height: 22px;
+    width: 31px;
+    margin: 2px;
+    cursor: pointer;
+    transition:all 200ms ease;
+}
+.flag:hover{
+    transition:all 200ms ease;
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+
+@media (max-width:500px){
+    .flags{
+        display:flex;
+        flex-direction: column;
+    }
+    .flags img{
+        margin: 6px;
+    }
+}
