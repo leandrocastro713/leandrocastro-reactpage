@@ -99,23 +99,17 @@ main h3:hover{
 }
 .follow-text{
     transform: rotate(90deg);
-    /* width: 150px; */
-    
 }
 .follow-text p{
     color: var(--v-front-color-menu);
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 18px; font-weight: 200;
     width:91px;
 }
 .follow-bar{
-    height:80px;
-    width:4px;
+    height:80px; width:4px;
     border-left: 4px solid #00adb4;
     border-radius: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 42px;
+    margin: 10px 42px 10px 0;
 }
 .follow-icons{
     display:flex;
@@ -126,40 +120,61 @@ main h3:hover{
     width:24px;
     margin:8px;
 }
+
 @media (max-width:630px){
     main{
-        display:flex;
-        height:860px;
+        display:flex; height:860px;
+        
     }
     .hello{
-        width:100%;
-        margin-top: 0;
+        width:100%; margin-top: 0;
+        
     }
     .hello h1{
-        margin-left: 10px;
-        margin-top:-40px;
+        margin-left: 10px; margin-top:-40px;
         font-size:7rem;
     }
     .hello h2{
-        font-size:3rem;
-        line-height:0.8;
+        font-size:3rem; line-height:0.8;
         margin-left: 21px;
     }
     .hello h3{
-        margin-left: 5px;
-        font-size:1rem;
+        margin-left: 5px; font-size:1rem;
     }
     .bar{
         margin:0 auto;
     }
     .pic{
-        width:100%;
-        justify-content:center;
+        width:100%; justify-content:center; 
         position:relative;
     }
     .pic img{
-        width: 80%;
-        display:block; 
-        margin:0 auto;
+        width: 80%; max-width:400px;
+        display:block; margin:0 auto;
     }
+    .follow-aside{
+        display:flex; justify-content:space-evenly;
+        width: 50%; height: 100px;
+    }
+    .follow-text{
+        transform: rotate(0deg);
+    }
+    .follow-text p{
+        width:91px;
+    }
+    .follow-bar{
+        height:32px; width:4px;
+        border-left:none;
+        border-right: 4px solid #00adb4;
+        margin: 10px;
+    }
+    .follow-icons{
+        display:flex;
+        flex-direction:row;
+        margin-left: 4px;
+    }
+    .follow-icons img{
+        margin:2px; 
+    }
+    
 }
