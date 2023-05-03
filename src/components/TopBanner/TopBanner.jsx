@@ -24,7 +24,7 @@ export default function TopBanner() {
                     <p>Follow me</p>
                 </div>
                 <div className="follow-bar">
-
+                    
                 </div>
                 <div className="follow-icons">
                     <a href="http://facebook.com/leandrocastro713" 
