@@ -148,13 +148,14 @@ main h3:hover{
         transform: rotate(0deg);
     }
     .follow-text p{
-        width:91px;
+        width:91px; text-align:center;
     }
     .follow-bar{ 
         height:32px; width:4px; border:none;
     }
     .follow-icons{
         display:flex; flex-direction:row;
+        justify-content:center;
         margin-left: 4px;
     }
     .follow-icons img{
