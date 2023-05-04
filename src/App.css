@@ -9,9 +9,11 @@
   width:100%;
   max-width:1000px;
 }
+html{
+  overflow-x: hidden;
+}
 body{
-  display:flex;
-  position:relative;
+  display:flex;position:relative;
   width:100%;
   max-width: 1000px;
   margin:0 auto;
@@ -22,6 +24,7 @@ body{
   font-weight: 300;
   background-color: var(--bkg-color1);
   color:var(--front-color1);
+  overflow-x: hidden;
 }
 a{
   cursor:pointer;
