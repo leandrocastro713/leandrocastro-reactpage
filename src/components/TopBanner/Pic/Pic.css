@@ -1,0 +1,11 @@
+.pic{
+    width: 305px;
+}
+.pic img{
+    width:100%; transition:ease 200ms;
+    position:relative;
+}
+.pic img:hover{
+    transform:scale(1.01);
+    filter:brightness(1.10);
+}

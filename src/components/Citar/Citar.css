@@ -1,0 +1,12 @@
+.content {
+  width: 100%; height: 100px; padding-top: 15px;
+  display:flex; justify-content:left;
+}
+.frase, .autor{
+  width:90%; height: 30px; margin:0;
+  text-align:left; font-size: 18px;
+}
+.autor{
+  position:relative; font-size:16px;
+  left:10px; top:
+}
