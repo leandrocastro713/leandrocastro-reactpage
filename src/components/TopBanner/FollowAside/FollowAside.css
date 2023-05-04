@@ -1,67 +1,82 @@
-.follow-aside{
-    display:flex; flex-direction:column;
-    align-items: center;
-    justify-content: space-around;
-    height:300px; width:40px;
-    margin-top:50px;
+.follow-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: 40px;
+  margin-top: 50px;
 }
-.follow-text{
-    transform: rotate(90deg);
+.follow-text {
+  transform: rotate(90deg);
 }
-.follow-text p{
-    margin-bottom :-25px;
-    color: var(--v-front-color-menu);
-    font-size: 18px; font-weight: 200;
-    width: 160px;
+.follow-text p {
+  margin-bottom: -25px;
+  color: var(--v-front-color-menu);
+  font-size: 18px;
+  font-weight: 200;
+  width: 160px;
 }
-.follow-bar{
-    height:80px; width:4px;
-    border-left: 4px solid #00adb4;
-    border-radius: 0px;
-    margin: 10px 42px 10px 0;
+.follow-bar {
+  height: 80px;
+  width: 4px;
+  border-left: 4px solid #00adb4;
+  border-radius: 0px;
+  margin: 10px 42px 10px 0;
 }
-.follow-icons{
-    display:flex; flex-direction: column;
-    margin-left: -43px;
+.follow-icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: -43px;
 }
-.follow-icons a{
-    margin:2px; padding: 3px;
+.follow-icons a {
+  margin: 2px;
+  padding: 3px;
 }
-.follow-icons img{
-    width:24px;
-    margin: 2px; padding: 2px;
+.follow-icons img {
+  width: 24px;
+  margin: 2px;
+  padding: 2px;
 }
 
-@media (max-width:630px){
-    .pic{
-        width:100%; justify-content:center; 
-        position:relative;
-    }
-    .pic img{
-        width: 80%; max-width:400px;
-        display:block; margin:0 auto;
-    }
-    .follow-aside{
-        display:flex; justify-content:space-evenly;
-        width: 50%; height: 100px;
-        margin: -50px 0 10px;
-    }
-    .follow-text{
-        transform: rotate(0deg);
-    }
-    .follow-text p{
-        width:91px; text-align:center;
-    }
-    .follow-bar{ 
-        height:32px; width:4px; border:none;
-    }
-    .follow-icons{
-        display:flex; flex-direction:row;
-        justify-content:center;
-        margin-left: 4px;
-    }
-    .follow-icons img{
-        margin:2px; 
-    }
-    
+@media (max-width: 630px) {
+  .pic {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+  }
+  .pic img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  .follow-aside {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100px;
+    margin: -50px 0 10px;
+  }
+  .follow-text {
+    transform: rotate(0deg);
+  }
+  .follow-text p {
+    width: 91px;
+    text-align: center;
+  }
+  .follow-bar {
+    height: 32px;
+    width: 4px;
+    border: none;
+  }
+  .follow-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 4px;
+  }
+  .follow-icons img {
+    margin: 2px;
+  }
 }

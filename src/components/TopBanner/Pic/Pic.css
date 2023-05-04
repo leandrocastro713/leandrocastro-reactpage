@@ -1,11 +1,18 @@
-.pic{
-    width: 305px;
+.pic {
+  width: 305px;
 }
-.pic img{
-    width:100%; transition:ease 200ms;
-    position:relative;
+.pic img {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  transition: ease 200ms;
 }
-.pic img:hover{
-    transform:scale(1.01);
-    filter:brightness(1.10);
+.pic img:hover {
+  transform: scale(1.01);
+  filter: brightness(1.1);
+}
+@media (max-width: 568px) {
+  .pic img {
+    top: -40px;
+  }
 }
