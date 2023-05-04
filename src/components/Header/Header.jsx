@@ -16,10 +16,6 @@ export default function Header() {
         <Curriculum />
         
       </div> 
-
-
-      
-
     </>
   );
 }

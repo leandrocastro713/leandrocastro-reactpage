@@ -3,6 +3,7 @@
   display:flex; justify-content:left;
 }
 .frase, .autor{
+  position:relative;
   width:90%; height: 30px; margin:0;
   text-align:left; font-size: 18px;
 }

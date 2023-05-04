@@ -2,8 +2,9 @@
     display:flex; 
     position: relative;
     max-width: 1000px;
-    width:97%;
+    width:100%;
     justify-content: space-around;
     align-items: center;
     padding: 15px;
+    box-sizing:border-box;
 }

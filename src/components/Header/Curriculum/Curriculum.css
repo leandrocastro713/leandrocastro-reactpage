@@ -1,5 +1,5 @@
 .download {
-    display:flex;
+    display:flex; flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
     padding:7px 20px;
@@ -10,7 +10,7 @@
     transition: ease 1000ms;
 }
 button img{
-    width:15px;
+    /* width:15px; */
     height:15px;
     padding: 3px;
     margin-left: 5px;
