@@ -1,5 +1,5 @@
-.content{
-    display:flex;
+.separator-content{
+    display:block;
     position:relative;
     width:100%;
     margin:0 auto;
@@ -13,7 +13,7 @@
     width:100%;
     font-weight: 800;
     text-align: center;
-    top:-86px;
+    top:-24px;
     color:rgb(43, 43, 43);
     transition:all ease 300ms;
     z-index: 50;
@@ -27,7 +27,7 @@
     width:100%;
     text-align: center;
     color:aqua;
-    top:-125px;
+    top:-65px;
     padding:0;
     transition: all ease 400ms;
     z-index: 50;

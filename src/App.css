@@ -1,31 +1,32 @@
-:root{
+:root {
   --bkg-color1: #1d212a;
   --bkg-color2: #3e4e64;
   --front-color-menu: #deeaee;
   --front-color1: #00adb4;
   --front-color2: #393d46;
 }
-#root{
-  width:100%;
-  max-width:1000px;
+#root {
+  width: 100%;
+  max-width: 1000px;
 }
-html{
+html {
   overflow-x: hidden;
 }
-body{
-  display:flex;position:relative;
-  width:100%;
+body {
+  display: flex;
+  position: relative;
+  width: 99%;
   max-width: 1000px;
-  margin:0 auto;
-  padding:0;
+  margin: 0 auto;
+  padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   background-color: var(--bkg-color1);
-  color:var(--front-color1);
+  color: var(--front-color1);
   overflow-x: hidden;
 }
-a{
-  cursor:pointer;
+a {
+  cursor: pointer;
 }
