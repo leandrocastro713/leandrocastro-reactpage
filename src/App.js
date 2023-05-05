@@ -5,6 +5,7 @@ import Knowledges from './components/Knowledges/Knowledges'
 import TopBanner from './components/TopBanner/TopBanner'
 import Citar from './components/Citar/Citar'
 import Skills from './components/Skills/Skills'
+import RecentWorks from './components/RecentWorks/RecentWorks'
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
       <Knowledges />
       <Separator title="Skills" />
       <Skills />
+      <Separator title="Recent Works" />
+      <RecentWorks />
     </>
   );
 }
