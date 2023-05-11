@@ -123,10 +123,11 @@
 }
 .maisx-container,
 .maisx-container-web {
-  display: flex;
-  flex-shrink: 1;
-  overflow: auto;
-  justify-content: space-evenly;
+  display: none;
+  flex-direction: row;
+  width:95%;
+  overflow-x:scroll;
+  justify-content: left;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
