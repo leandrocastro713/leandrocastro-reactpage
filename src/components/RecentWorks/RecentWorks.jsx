@@ -75,31 +75,31 @@ export default function RecentWorks() {
             <img src={require("../img2/card-cleber.jpg")} alt="" />
           </a>
           <a href="./img2/card-imperio.jpg" target="_blank">
-            <img src="./img2/card-imperio.jpg" alt="" />
+            <img src={require("../img2/card-imperio.jpg")} alt="" />
           </a>
           <a href="./img2/card-jerry.jpg" target="_blank">
-            <img src="./img2/card-jerry.jpg" alt="" />
+            <img src={require("../img2/card-jerry.jpg")} alt="" />
           </a>
           <a href="./img2/card-lise.jpg" target="_blank">
-            <img src="./img2/card-lise.jpg" alt="" />
+            <img src={require("../img2/card-lise.jpg")} alt="" />
           </a>
           <a href="./img2/card-marilia.jpg" target="_blank">
-            <img src="./img2/card-marilia.jpg" alt="" />
+            <img src={require("../img2/card-marilia.jpg")} alt="" />
           </a>
           <a href="./img2/card-real-vs-atletico.jpg" target="_blank">
-            <img src="./img2/card-real-vs-atletico.jpg" alt="" />
+            <img src={require("../img2/card-real-vs-atletico.jpg")} alt="" />
           </a>
           <a href="./img2/card-rizzi.jpg" target="_blank">
-            <img src="./img2/card-rizzi.jpg" alt="" />
+            <img src={require("../img2/card-rizzi.jpg")} alt="" />
           </a>
           <a href="./img2/cartao.jpg" target="_blank">
-            <img src="./img2/cartao.jpg" alt="" />
+            <img src={require("../img2/cartao.jpg")} alt="" />
           </a>
           <a href="./img2/flyer-joyce.jpg" target="_blank">
-            <img src="./img2/flyer-joyce.jpg" alt="" />
+            <img src={require("../img2/flyer-joyce.jpg")} alt="" />
           </a>
-          <a href="./img2/flyer-stop-xis-calabresa.jpg" Target="_blank">
-            <img src="./img2/flyer-stop-xis-calabresa.jpg" alt="" />
+          <a href="./img2/flyer-stop-xis-calabresa.jpg" target="_blank">
+            <img src={require("../img2/flyer-stop-xis-calabresa.jpg")} alt="" />
           </a>
         </div>
       )}

@@ -126,11 +126,12 @@
 .maisx-container-web {
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 97%;
   overflow-x: scroll;
   justify-content: left;
   margin: 0 auto;
   margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 .maisx-container img {
   transition: ease 240ms;
