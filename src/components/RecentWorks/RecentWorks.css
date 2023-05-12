@@ -91,31 +91,32 @@
 }
 
 #mais {
-  position:relative;
+  position: relative;
   text-align: right;
-  width:94px;
+  width: 94px;
   padding: 10px 10px;
   cursor: pointer;
   z-index: 20;
-  color:#00adb4;
+  color: #00adb4;
 }
-.mais-link-banner{
-  display:flex;
+.mais-link-banner {
+  display: flex;
   justify-content: end;
+  padding: 15px 20px;
 }
-#mais-link{
-  display:flex;
-  position:relative;
+#mais-link {
+  display: flex;
+  position: relative;
   justify-content: end;
   border: none;
-  padding:0 20px;
-  width:85px;
+  padding: 0 20px;
+  width: 85px;
 }
-#mais-link:visited{
-  color:#00adb4;
+#mais-link:visited {
+  color: #00adb4;
 }
-#mais-link:active{
-  color:#f7fbfb;
+#mais-link:active {
+  color: #f7fbfb;
 }
 .maisx-body {
   background-color: #1d212a;
@@ -125,8 +126,8 @@
 .maisx-container-web {
   display: flex;
   flex-direction: row;
-  width:95%;
-  overflow-x:scroll;
+  width: 95%;
+  overflow-x: scroll;
   justify-content: left;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -180,7 +181,7 @@
     padding-top: 40px;
   }
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .recent-works {
     padding-bottom: 40px;
   }
