@@ -1,10 +1,16 @@
 import React from "react";
+import { ReactDOM } from "react";
 import "./RecentWorks.css";
 
 export default function RecentWorks() {
+  function maisClick(){
+    const vRecentThumbs = ReactDOM.getElementById("recent-thumbs")
+    console.log({vRecentThumbs})
+  }
   return (
     <section className="recent-works">
-      <div className="recent-thumbs">
+
+      <div className="recent-thumbs" id="recent-thumbs">
         <div className="recent-thumbs-block">
           <img src={require("./thumb-bar1.jpg")} alt="" />
           <p>Social Media</p>
@@ -52,10 +58,11 @@ export default function RecentWorks() {
         </div>
       </div>
       <div className="mais-link-banner">
-        <a id="mais-link" href="./mais.html" target="_blank">
+        <a onClick={maisClick} id="mais-link" href="" target="_blank">
           <p id="mais">Mais ...</p>
         </a>
       </div>
+      
       {/*------------------- MAIS X CONTAINER ------------------- */}
       <div className="maisx-container">
         <a href="./img2/card-bayern-vs-barcelona.jpg" target="_blank">
