@@ -1,0 +1,75 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 107px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  background-image: radial-gradient(var(--v-bkg-color2), black);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  overflow-y: hidden;
+  z-index: 2000;
+}
+.contact a{
+  color: aqua;
+  border:none;
+}
+.contact-email {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  cursor: pointer;
+  top: -50px;
+  height:40px;
+  z-index: 1000;
+}
+.contact-phone {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  cursor: pointer;
+  top: -50px;
+  height:40px;
+}
+.contact-email p {
+  text-shadow: 1px 2px #343944;
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+.contact-phone p {
+  text-shadow: 1px 2px #343944, -1px -2px #1d212a;
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+.contact-email img {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  filter:invert(1);
+}
+.contact-phone a {
+  text-decoration: none;
+}
+.contact-phone img {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  filter:invert(1);
+}

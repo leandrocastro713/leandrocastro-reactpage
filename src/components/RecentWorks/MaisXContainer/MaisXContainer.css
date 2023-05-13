@@ -1,0 +1,23 @@
+.maisx-container {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  overflow-x: scroll;
+  justify-content: left;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.maisx-container img {
+  transition: ease 240ms;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px 5px 20px;
+}
+.maisx-container img:hover {
+  transform: scale(1.01);
+  border-radius: 5px;
+  filter: drop-shadow(1px 2px 6px #00adb4);
+}
