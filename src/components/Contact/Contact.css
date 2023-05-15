@@ -73,3 +73,14 @@
   top: 2px;
   filter:invert(1);
 }
+.separator-content{
+  height:50px;
+}
+@media (max-width:500px){
+ .contact-email{
+  top:-30px;
+ } 
+ .contact-phone{
+  top:-34px;
+ }
+}
