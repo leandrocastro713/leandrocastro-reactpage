@@ -18,6 +18,9 @@
   background-blend-mode: multiply;
   background-repeat: no-repeat;
 }
+.recent-works{
+  margin-top: -45px;
+}
 .recent-title {
   height: 20px;
 }
