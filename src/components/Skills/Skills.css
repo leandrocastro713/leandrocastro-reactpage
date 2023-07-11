@@ -183,8 +183,10 @@
   }
   .skills-names {
     margin-left: -67px;
+    width:97px;
   }
 }
+
 @media (max-width: 321px) {
   .skills-gauges {
     width: 113px;
