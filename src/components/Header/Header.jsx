@@ -4,7 +4,6 @@ import Logo from "./Logo/Logo.jsx";
 import Menu from "./Menu/Menu.jsx";
 import Flags from "./Flags/Flags.jsx";
 import Curriculum from "./Curriculum/Curriculum.jsx";
-import { useState } from 'react'
 
 export default function Header({ ptbr , setPtbr }) {
 
@@ -12,11 +11,10 @@ export default function Header({ ptbr , setPtbr }) {
 
   return (
     <div className="Header">
-      {/* <p>{ptbr}</p> */}
       <Logo ptbr = { ptbr }/>
       <Menu ptbr = { ptbr }/>
       <Flags ptbr = { ptbr } setPtbr = { setPtbr }/>
-      <Curriculum />
+      <Curriculum ptbr = { ptbr }/>
     </div>
   );
 }
