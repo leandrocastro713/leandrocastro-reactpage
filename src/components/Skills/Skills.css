@@ -171,7 +171,7 @@
   }
 }
 @media (max-width: 660px) {
-  .skills-container{
+  .skills-container {
     margin-bottom: 37px;
   }
   .skills-img {
@@ -183,5 +183,24 @@
   }
   .skills-names {
     margin-left: -67px;
+  }
+}
+@media (max-width: 321px) {
+  .skills-gauges {
+    width: 113px;
+  }
+  .skills-names p {
+    margin: 0.9rem 0 0 0.9rem;
+    width: 92px;
+    left: -8px;
+  }
+  .skills-names {
+    margin-left: -67px;
+    width: 100px;
+}
+  .skills-img {
+    left: -15vw;
+    opacity: 40%;
+    width: 64px;
   }
 }
