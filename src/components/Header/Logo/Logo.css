@@ -1,4 +1,23 @@
-.logo{
-    cursor: pointer;
-    margin-left: 5px;
+.logo {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.logo h4 {
+    color: #00adb4;
+    animation: 3s ease-in 2s infinite aniLogo;
+}
+
+@keyframes aniLogo {
+  0% {
+    color: #00adb4;
+  }
+  30% {
+    color: rgb(208, 229, 230);
+  }
+  60% {
+    color: #00adb4;
+  }
+  70% {
+    color: rgb(208, 229, 230);
+  }
 }

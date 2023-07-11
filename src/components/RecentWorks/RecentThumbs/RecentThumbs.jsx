@@ -34,7 +34,7 @@ export default function RecentThumbs() {
       </div>
 
       <div className="recent-thumbs-block">
-        <a href="https://joycesilvanocabeloslivres.vercel.app/" target="_blank">
+        <a href="https://joycesilvano-cabeloslivres.vercel.app/" target="_blank">
           <img src={require("../thumb-joyce.jpg")} alt="" />
           <p>Site</p>
         </a>
