@@ -2,7 +2,7 @@ import React from "react";
 import Separator from "../Separator/Separator";
 import "./Skills.css";
 
-export default function Skills() {
+export default function Skills({ ptbr }) {
   return (
     <section className="skills-container">
       <div className="skills-blocks">

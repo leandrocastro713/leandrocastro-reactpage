@@ -3,7 +3,7 @@ import "./RecentWorks.css";
 import RecentThumbs from "./RecentThumbs/RecentThumbs.jsx"
 import MaisXContainer from "./MaisXContainer/MaisXContainer";
 
-export default function RecentWorks() {
+export default function RecentWorks({ ptbr }) {
   const [show, setShow] = useState(true);
   const [showMais, setShowMais] = useState(false);
   function maisClick() {
@@ -19,7 +19,8 @@ export default function RecentWorks() {
       {showMais && <MaisXContainer />}
       {/*------------------------------------- BANNER MAIS CLICK  */}
       <div className="mais-link-banner" onClick={maisClick}>
-        <p>{show === true ? "More >>>" : "<<< Less"}</p>
+        {ptbr == 'pt' && <p>{show === true ? "Mais >>>" : "<<< Menos"}</p> }
+        {ptbr == 'en' && <p>{show === true ? "More >>>" : "<<< Less"}</p> }
       </div>
     </section>
   );

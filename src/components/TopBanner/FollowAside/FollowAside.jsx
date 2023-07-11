@@ -1,11 +1,12 @@
 import React from "react";
 import "./FollowAside.css";
 
-export default function FollowAside() {
+export default function FollowAside({ ptbr }) {
   return (
     <div className="follow-aside">
       <div className="follow-text" alt="Follow Me">
-        <p>Follow me</p>
+        {ptbr == 'pt' && <p>Siga me</p>}
+        {ptbr == 'en' && <p>Follow me</p>}
       </div>
 
       <div className="follow-bar"></div>
