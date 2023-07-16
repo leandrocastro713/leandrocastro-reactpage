@@ -21,6 +21,7 @@
   padding: 15px 20px;
 }
 .mais-link-banner p {
+  animation: 3s ease-in 2s infinite aniLogo;
   cursor: pointer;
 }
 #mais-link:visited {

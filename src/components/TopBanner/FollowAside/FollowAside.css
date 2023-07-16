@@ -8,6 +8,7 @@
   margin-top: 50px;
 }
 .follow-text {
+  animation: 3s ease-in 2s infinite aniLogo;
   transform: rotate(90deg);
 }
 .follow-text p {

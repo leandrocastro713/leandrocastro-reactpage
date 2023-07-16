@@ -8,7 +8,7 @@ export default function Hello({ ptbr }) {
       {ptbr == "en" && <h1>Hello</h1>}
       {ptbr == "pt" && (
         <h2>
-          Eu sou <br />
+          Sou <br />
           Leandro <span>Castro</span>
         </h2>
       )}
