@@ -20,14 +20,15 @@ a:hover {
 }
 .btn_menu {
   display: none;
-  border: 2px solid gray;
+  border: 2px solid rgb(54, 91, 89);
   padding: 8px 10px 5px;
   border-radius: 50px;
-  background-color: rgba(25, 75, 64, 0.5);
+  background-color: rgba(118, 184, 169, 0.8);
   cursor: pointer;
-  right: 15px;
+  right: 19px;
+  box-shadow: 4px 2px rgba(27, 26, 26, 0.594);
   position: fixed;
-  bottom: 10px;
+  bottom: 12px;
   z-index: 2000;
 }
 .btn_menu img {
@@ -53,13 +54,13 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     position:fixed;
-    right:15px;
-    bottom:15px;
+    right:5px;
+    bottom:9px;
     z-index: 2000;
-    background-color: rgba(0, 208, 255, 0.755);
-    height:50%;
+    background-color: rgba(2, 177, 216, 0.9);
+    height:300px;
     width:60%;
-    border-radius: 10px;
+    border-radius: 10px 10px 30px 10px;
     color: rgb(13, 28, 32);
   }
   ul a{
