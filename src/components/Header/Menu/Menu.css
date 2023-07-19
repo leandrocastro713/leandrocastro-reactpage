@@ -34,47 +34,41 @@ a:hover {
 .btn_menu img {
   width: 40px;
 }
-@media (max-width: 690px) {
+@media (max-width: 720px) {
   ul {
+    align-items: center;
+    background-color: rgba(2, 177, 216, 0.9);
+    bottom: 9px;
+    border-radius: 10px 10px 30px 10px;
+    color: rgb(13, 28, 32);
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 30%;
+    justify-content: space-between;
+    height: 300px;
+    position: fixed;
+    right: 5px;
+    width: 60%;
+    z-index: 2000;
   }
-  a {
-    padding: 4px;
-    margin: 3px;
-  }
-}
-@media (max-width: 500px) {
   .btn_menu {
     display: block;
   }
-  ul{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    position:fixed;
-    right:5px;
-    bottom:9px;
-    z-index: 2000;
-    background-color: rgba(2, 177, 216, 0.9);
-    height:300px;
-    width:60%;
-    border-radius: 10px 10px 30px 10px;
-    color: rgb(13, 28, 32);
-  }
-  ul a{
-    display:block;
-    width:100%;
+  ul a {
+    display: block;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1.2px;
-    font-size: 18px;
+    width: 100%;
   }
-  ul li{
-    display:block;
-    width:100%;
+  ul li {
+    display: block;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1.2px;
-    font-size: 18px;
+    width: 100%;
+  }
+  a {
+     margin: 3px;
+     padding: 4px;
   }
 }

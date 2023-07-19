@@ -20,14 +20,15 @@ export default function Menu({ ptbr }) {
   }
 
   setInterval(() => {
-    if (window.screen.width > 500) {
+    if (window.screen.width > 600) {
       setShowMenu(true);
+      console.log(window.screen.width)
     }
   }, 1000);
 
   function closeMobile() {
     console.log(window.screen.width);
-    if (window.screen.width <= 500) {
+    if (window.screen.width <= 599) {
       console.log("is mobile");
       setShowMenu(false);
     }

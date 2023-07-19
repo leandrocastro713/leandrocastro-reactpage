@@ -1,27 +1,19 @@
 import React from "react";
 import "./Curriculum.css";
 import DownloadImg from "./download-silver.png";
+import { useState } from "react";
+import { Link } from "react-scroll";
 
-export default function Curriculum( { ptbr } ) {
-
-  let msgtxt = ''
-  
-  if(ptbr=='pt'){
-    msgtxt='Ainda não implementado!'
-  }else{
-    msgtxt='Not implemented!'
-  }
-
-  function showMsg(){
-    alert(msgtxt)
-  }
+export default function Curriculum({ ptbr }) {
 
   return (
     <div className="curriculum">
-      <button className="download" onClick={showMsg}>
-        Curriculum
-        <img src={DownloadImg} />
-      </button>
+      <a href={ptbr == 'pt' ? "./CurriculumPT.pdf" : "./CurriculumEN.pdf"} download target="_blank"> 
+        <p className="download">
+          Curriculum
+          <img src={DownloadImg} />
+        </p>
+        </a>
     </div>
   );
 }
