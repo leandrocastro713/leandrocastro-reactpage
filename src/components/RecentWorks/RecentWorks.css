@@ -31,13 +31,13 @@
   color: #f7fbfb;
 }
 @media (max-width: 660px) {
-  .recent-works {
+  .recentWorks {
     margin-top: -81px;
     padding-top: 40px;
   }
 }
 @media (max-width: 500px) {
-  .recent-works {
+  .recentWorks {
     padding-bottom: 40px;
   }
 }

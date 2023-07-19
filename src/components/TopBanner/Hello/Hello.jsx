@@ -20,8 +20,8 @@ export default function Hello({ ptbr }) {
       )}
 
       <div className="bar"></div>
-      {ptbr == 'pt' && <h3>Desenvolvedor Frontend</h3>}  
-      {ptbr == 'en' && <h3>Frontend Developer</h3>}  
+      {ptbr == "pt" && <h3>Desenvolvedor Frontend</h3>}
+      {ptbr == "en" && <h3>Frontend Developer</h3>}
     </div>
   );
 }

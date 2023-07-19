@@ -12,7 +12,7 @@ export default function RecentWorks({ ptbr }) {
     console.log(show, showMais);
   }
   return (
-    <section className="recent-works">
+    <section className="recentWorks">
       {/*--------------------------------------- RECENT THUMBS */}
       {show && <RecentThumbs />}
       {/*--------------------------------------- MAIS X CONTAINER */}

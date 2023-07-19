@@ -45,6 +45,7 @@
   max-width: 1000px;
   height: 350px;
   margin: 0 auto;
+  padding-top: 2rem;
   justify-content: space-evenly;
 }
 .thumb-block {

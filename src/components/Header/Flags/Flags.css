@@ -20,7 +20,7 @@
 @media (max-width:500px){
     .flags{
         display:flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .flags img{
         margin: 6px;

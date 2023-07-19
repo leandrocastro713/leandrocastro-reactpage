@@ -4,7 +4,7 @@ import "./Skills.css";
 
 export default function Skills({ ptbr }) {
   return (
-    <section className="skills-container">
+    <section className="skillsContainer">
       <div className="skills-blocks">
         <div className="skills-img">
           <img src={require("./losango2.png")} alt="background" />

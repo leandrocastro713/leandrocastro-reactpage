@@ -4,7 +4,8 @@ import Separator from "../Separator/Separator";
 
 export default function Knowledges({ ptbr }) {
   return (
-    <div className="kl-content">
+    <div className="klContent">
+      
       {ptbr == 'pt' && <Separator title="Conhecimentos" />}  
       {ptbr == 'en' && <Separator title="Knowledges" />}
 

@@ -1,5 +1,5 @@
 
-.recent-works,
+.recentWorks,
 .recent-title {
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   padding-bottom: 40px;
   justify-content: center;
 }
-.recent-works {
+.recentWorks {
   margin-top: -81px;
   padding-top: 40px;
   background-color: var(--bkg-color1);
@@ -18,7 +18,7 @@
   background-blend-mode: multiply;
   background-repeat: no-repeat;
 }
-.recent-works{
+.recentWorks{
   margin-top: -45px;
 }
 .recent-title {
